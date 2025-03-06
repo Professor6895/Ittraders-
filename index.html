@@ -3,16 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>IT TRADERS</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Facebook Page Embed</title>
 </head>
 <body>
-    <h1>Welcome to IT TRADERS!</h1>
+    <!-- Facebook Page Plugin -->
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" 
+        src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v17.0" 
+        nonce="YOUR_NONCE_VALUE"></script>
 
-    <!-- Image Implementation -->
-    <div class="image-container">
-        <img src="Images/Under maintanance.png" alt="A description of your image" />
+    <div class="fb-page" 
+        data-href="https://www.facebook.com/ITTRADERNEPAL" 
+        data-tabs="timeline" 
+        data-width="500" 
+        data-height="600" 
+        data-small-header="false" 
+        data-adapt-container-width="true" 
+        data-hide-cover="false" 
+        data-show-facepile="true">
     </div>
-
 </body>
 </html>
